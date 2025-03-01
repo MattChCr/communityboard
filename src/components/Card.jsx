@@ -9,8 +9,8 @@ const Card = (props) => {
             <h3> {props.style}</h3> 
             <br></br>
             <div class="Button">
-                 <a src={props.link}> View Sites </a>
-                 </div>
+                <a href={props.link}> View Sites </a>
+            </div>
         
         </div>
       
